@@ -10,6 +10,9 @@ int main() {
     const int MovimentoBispo = 5 ;
     const int MovimentoRainha = 8;
     const int MovimentoTorre = 5;
+          int MovimentoCavalo1= 2;
+    const int MovimentoCavalo2 = 1;
+
 
     // Implementação de Movimentação do Bispo
     printf( "Movimento do Bispo \n\n");
@@ -41,8 +44,18 @@ while (i <= MovimentoRainha){
 }
     // Nível Aventureiro - Movimentação do Cavalo
 
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+    printf("\n\n Movimento do Cavalo \n\n");
+ i = 1; 
+   
+   for(i; i <= MovimentoCavalo2 ; i++){   
+      while(MovimentoCavalo1 > 0 ) { 
+            printf("baixo\n");
+            MovimentoCavalo1--;
+        }
+        printf("Esquerda\n\n");
+        i++;
+   }
+
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
